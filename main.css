@@ -1,0 +1,19 @@
+body{
+    background-color: gold;
+}
+
+div{
+    background-color: lemonchiffon;
+    width: 525px;
+    border: solid;
+    border-color: darkgoldenrod;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+}
+
+.hidden{
+    visibility: hidden;
+}

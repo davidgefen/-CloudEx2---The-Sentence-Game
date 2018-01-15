@@ -1,0 +1,19 @@
+#applications:
+#- path: .
+#  memory: 256M
+#  instances: 1
+#  domain: mybluemix.net
+#  name: CloudEx2
+#  host: CloudEx2
+#  disk_quota: 1024M
+#  command: node app.js
+#    services:
+#    - mongodbnode
+#
+    applications:
+    - name: cloudex2
+      host: cloudex2
+      memory: 128M
+      command: node app.js
+      services:
+      - mongodbnode
